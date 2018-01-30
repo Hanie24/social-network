@@ -1,0 +1,161 @@
+/*.container-fluid {
+  background: #F1F1F1;
+}*/
+
+/*login styles*/
+.navi {
+  background: #53e8bb;
+  height: 12vh;
+}
+
+#register {
+  color: #ffff;
+  font-size: 4vh;
+}
+
+#us {
+  color: #53e8bb;
+  font-weight: bold;
+  font-size: 5vh;
+  border: 10vh solid #ffff;
+}
+
+#spoon-green {
+  height: 22vh;
+}
+
+#head {
+  color: #ffff;
+  font-family: 'Lobster', cursive;
+}
+
+#head-inv {
+  color: #53e8bb;
+  font-family: 'Lobster', cursive;
+}
+
+#sing-in {
+  background: #ffff;
+  color: #53e8bb;
+  border: 0px;
+  height: 8vh;
+  width: 18.5vh;
+  margin-top: 4vh;
+  font-weight: bold;
+}
+
+#enter {
+  background: #53e8bb;
+  color: #ffff;
+  border: 0px;
+  height: 8vh;
+  width: 18.5vh;
+  margin-top: 4vh;
+  font-weight: bold;
+}
+
+#sing-in:hover {
+    background: #d9f7ed;
+}
+
+#enter:hover {
+  background: #29ad81;
+}
+
+#foot {
+  margin-top: 4vh;
+  height: 17.5vh;
+  font-size: 3vh;
+  background: #53e8bb;
+  color: #ffff;
+}
+.image {
+  height: 44vh;
+
+}
+
+/*Estilos Modal del login*/
+
+.fade {
+  background: rgba(83,232,187,1);
+background: -moz-linear-gradient(-45deg, rgba(83,232,187,1) 0%, rgba(153,255,223,0.51) 47%, rgba(157,254,224,0.48) 50%, rgba(190,250,230,0.74) 75%, rgba(217,247,237,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(83,232,187,1)), color-stop(47%, rgba(153,255,223,0.51)), color-stop(50%, rgba(157,254,224,0.48)), color-stop(75%, rgba(190,250,230,0.74)), color-stop(100%, rgba(217,247,237,1)));
+background: -webkit-linear-gradient(-45deg, rgba(83,232,187,1) 0%, rgba(153,255,223,0.51) 47%, rgba(157,254,224,0.48) 50%, rgba(190,250,230,0.74) 75%, rgba(217,247,237,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(83,232,187,1) 0%, rgba(153,255,223,0.51) 47%, rgba(157,254,224,0.48) 50%, rgba(190,250,230,0.74) 75%, rgba(217,247,237,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(83,232,187,1) 0%, rgba(153,255,223,0.51) 47%, rgba(157,254,224,0.48) 50%, rgba(190,250,230,0.74) 75%, rgba(217,247,237,1) 100%);
+background: linear-gradient(135deg, rgba(83,232,187,1) 0%, rgba(153,255,223,0.51) 47%, rgba(157,254,224,0.48) 50%, rgba(190,250,230,0.74) 75%, rgba(217,247,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#53e8bb', endColorstr='#d9f7ed', GradientType=1 );
+Copy text
+}
+
+
+/*Profile styles*/
+
+
+input {
+  height: 20vh;
+  width: 60vh;
+  border: none;
+}
+
+#share {
+  background: #53e8bb;
+  border: 2vh solid #53e8bb;
+  color: #ffffff;
+  font-size: 2.3vh;
+  font-weight: bold;
+}
+
+#profile {
+  margin-top: 10vh;
+  height: 22vh;
+  border-radius: 3vh;
+}
+
+#descript {
+  height: 60vh;
+}
+
+.nt {
+  background: #53e8bb; /*#3EB489;*/
+  color: #ffff;
+  height: 35vh;
+  padding: 0 auto;
+}
+
+.box {
+  margin-top: 5vh;
+  padding: #ffff;
+}
+
+.numbers {
+  margin-top: 6vh;
+  background: pink;
+  height: auto;
+}
+
+.fa {
+  color: #53e8bb;
+}
+
+.fa:hover {
+ color: #7af4ce;
+}
+
+#share:hover {
+background-color: #7af4ce;
+border: 2vh solid #7af4ce;
+
+}
+
+.post {
+  margin-top: 6vh;
+}
+
+a:link, a:hover, .about-us {
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}

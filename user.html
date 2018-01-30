@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <!--little logo-->
+    <link rel="shortcut icon" href="assets/images/icon-log.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <!--Bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+
+
+    <!--Wow Animation library-->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </head>
+  <body>
+    <!--Profile-->
+      <div class="container-fluid text-center">
+        <!--Green box profile-->
+        <div class="row">
+          <div class="col-sm-12 align-self-center">
+            <section class= "wow fadeInDown nt" data-wow-duration="1.2s" data-wow-delay="1s">
+              <h2>Vanesa Hernández <i class="fa fa-spoon" aria-hidden="true"></i>
+              </h2>
+              <!--Profile User Image-->
+              <img id="profile" src="assets/images/profile/user.jpg" alt="profile picture">
+            </section>
+          </div>
+        </div>
+        <!--Numbers-->
+        <div class="row">
+          <section class="numbers">
+            <a href="#"><div class="col-sm-2 align-self-center w3-bar-item w3-button" onclick="view('seguidores')">
+              <h3>Seguidores</h3>
+              <p>217</p>
+              </div></a>
+            <a href="#"><div class="col-sm-2 align-self-center w3-bar-item w3-button" onclick="view('spoons')">
+              <h3>Spoons</h3>
+              <p>350</p>
+            </div></a>
+            <a href="#"><div class="col-sm-2 align-self-center w3-bar-item w3-button" onclick="view('siguiendo')">
+              <h3>Siguiendo</h3>
+              <p>319</p>
+            </div></a>
+            <!--tabs-->
+            <div id="siguiendo" class="w3-container tablas" style="display:none">
+              <h2>Siguiendo</h2>
+              <p>seguidores</p>
+            </div>
+
+
+            <div class="col-sm-6 text-right">
+              <a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!--Post-->
+        <div class="row">
+          <section class="post">
+            <div class="col-sm-5 align-self-center">
+              <input type="text" name="" value="" placeholder="¡Escribe algo!" width="30%" height="80%">
+            </div>
+          <section>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 text-right">
+            <button id="share" type="button" name="button">Publicar</button>
+          </div>
+
+        </div>
+        <!--Info-->
+        <div class="row">
+          <section class="box">
+            <div class="col-sm-5 align-self-center">
+              <!--descriptive picture-->
+              <img id="descript" src="assets/images/jelly.jpg" alt="jelly">
+              <h5>Sobre Mí</h5>
+              <p>Me interesa la repostería</p>
+              <p></p>
+            </div>
+          </section>
+        </div>
+        <!--About Us-->
+        <div class="row">
+          <section class="about-us">
+            <div class="col-sm-5 align-self-center">
+              <a href="#"><i class="fa fa-info" aria-hidden="true"></i> Nosotros</a>
+              <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
+              <a href="#"><i class="fa fa-user-secret" aria-hidden="true"></i> Privacidad
+              </a>
+              <a href="#"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+              Seguridad</a>
+            </div>
+          </section>
+        </div>
+        <!--Language-->
+        <div class="row">
+          <section class="text-center">
+            <div class="col-md-offset-4 align-self-center">
+                  <select class="form-control align-self-center">
+                    <option>Español</option>
+                    <option>English</option>
+                    <option>François</option>
+                    <option>Portugués</option>
+                  </select>
+                </div>
+              </div>
+          </section>
+        </div>
+      </div>
+
+      <!--Jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      <!-- Bootstrap JS-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!--JS-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+wow = new WOW(
+                     {
+                     boxClass:     'wow',      // default
+                     animateClass: 'animated', // default
+                     offset:       0,          // default
+                     mobile:       true,       // default
+                     live:         true        // default
+                   }
+                   )
+                   wow.init();
+
+
+
+
+
+.blue {
+background: blue;
+height: 33vh;
+}
+
+
+.button-nt {
+  background: #3EB489;
+  color: #ffff;
+  height: 12vh;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald" rel="stylesheet">
+    <title>login</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <!--Bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    </head>
+  <body>
+    <div class="container-fluid">
+      <!--Nav, register & login-->
+      <div class="row">
+        <section class="navi wow fadeInDown" data-wow-duration="1.3s" data-wow-delay=".5s">
+          <div class="col-xs-12 col-sm-6 align-self-center">
+            <a href="#modal-1" id="register"  data-toggle="modal"><p>Registro / Inicia Sesión</p></a>
+          </div>
+          <!--logo font-->
+          <div class="col-xs-6 col-sm-5 text-right">
+            <a href="#"><h1 id="head">Spoon</h1></a>
+          </div>
+        </section>
+      </div>
+
+          <!--Modal Login-->
+          <div class="modal fade" id="modal-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!--Starting-->
+                <div class="modal-header text-center" id="sesion">
+                <button type="button" class="close" name="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-tittle">Iniciar Sesión</h3>
+                </div>
+                <!--Data-->
+                <div class="modal-body" id="sesion-2">                            <form>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-6">
+                        <span>
+                          <i class="fa fa-user" aria-hidden="true"></i>
+                          <input id="e-m"type="email" class="form-control" id="exampleInputEmail1" placeholder="correo eléctronico">
+                        </span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6">
+                        <div class="form-group">
+                          <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="contraseña">
+                        </div>
+                      </div>
+                    </div>
+                  <span>
+                    <div>
+                      <button id="enter"type="submit" class="text-center">Registrate</button>
+                    </div>
+                  </span>
+                  <p>¿Olvidaste la contraseña?<a href="#">Click aquí</a> </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!--info || smartphone & screen-->
+      <div class="row">
+        <section id="us">
+          <div class="col-xs-12 col-sm-5 text-center visible-xs">
+            <a href="#"><h1 id="head-inv">Spoon</h1></a>
+          </div>
+          <div class="col xs-12 col-sm-5 text-center">
+            <h1 class="wow fadeInDown" data-wow-duration="2s" data-wow-delay="1s">¡Bienvenido a spoon!</h1>
+            <p>Aprende los mejores hacks de cocina, recetas, y ¡mucho más! </p>
+            <i class="fa fa-spoon visible-xs" aria-hidden="true fa-4x"></i>
+            <i class="fa fa-heart-o wow fadeInDown" data-wow-duration="1.3s" data-wow-delay="1.9s" aria-hidden="true fa-4x"></i>
+            <img  id="spoon-green" class="hidden-xs" src="assets/images/spoon.png" alt="spoon">
+          </div>
+          <div class="col-xs-12	col-sm-7 text-center">
+            <img class="image hidden-xs" src="assets/images/whitetop.png" alt="laptop">
+            <img class="image hidden-md" src="assets/images/phone.png" alt="phone">
+            </div>
+          </section>
+        </div>
+        <footer>
+          <div class="row">
+            <section id="foot">
+              <div class="col-sm-8">
+                <h2>Obten descuentos exclusivos</h2>
+                <p class="hidden-xs">En estaurantes, tiendas, además de acceso a eventos especiales al formar parte de nuestra comunidad</p>
+              </div>
+              <div class="col-xs-6 col-sm-2 text-center align-self-center">
+               <a href="#modal-1" id="go"  data-toggle="modal"><button id="sing-in" type="button" name="button">Registrate</button></a>
+              </div>
+            </section>
+          </div>
+          <div class="row text-right">
+            <section class="about-us">
+              <div class="col-sm-12 align-self-center">
+                <a href="#"><i class="fa fa-info" aria-hidden="true"></i> Nosotros</a>
+                <a href="#"><i class="fa fa-user-secret" aria-hidden="true"></i> Privacidad
+                </a>
+                <a href="#"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                Seguridad</a>
+              </div>
+            </section>
+          </div>
+        </footer>
+    </div>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Bootstrap JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--Wow Animation library-->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+    <!--JS-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
