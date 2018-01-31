@@ -8,19 +8,3 @@ wow = new WOW(
                    }
                    )
                    wow.init();
-
-
-
-
-
-.blue {
-background: blue;
-height: 33vh;
-}
-
-
-.button-nt {
-  background: #3EB489;
-  color: #ffff;
-  height: 12vh;
-}

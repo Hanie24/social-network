@@ -89,7 +89,7 @@ Copy text
 }
 
 
-/*Profile styles*/
+/*User styles*/
 
 
 input {
@@ -98,7 +98,9 @@ input {
   border: none;
 }
 
-#share {
+
+
+#share, #share-mdl {
   background: #53e8bb;
   border: 2vh solid #53e8bb;
   color: #ffffff;
@@ -142,7 +144,15 @@ input {
  color: #7af4ce;
 }
 
-#share:hover {
+.links-ref {
+  color: black;
+}
+
+.links-ref:hover {
+  color: #5c8282;
+}
+
+#share:hover, #share-mdl:hover {
 background-color: #7af4ce;
 border: 2vh solid #7af4ce;
 
@@ -158,4 +168,27 @@ a:link, a:hover, .about-us {
 
 a {
   color: black;
+}
+
+
+/*Followers*/
+
+.followers {
+  height: 22vh;
+  width: 22vh;
+  border-radius: 12vh;
+}
+
+.gren {
+  border: 1vh solid #53e8bb;;
+}
+
+.siguiendo {
+  width: 22vh;
+  height: 22vh;
+  border-radius: 6vh;
+}
+
+.new {
+  border: 2vh solid #ffff;
 }

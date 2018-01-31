@@ -1,0 +1,51 @@
+#menu {
+  background: #53e8bb;
+}
+
+#fa {
+  color: white;
+}
+
+#message {
+  margin-left: 40vh;
+  height: 8vh;
+  margin-top: -1vh;
+}
+
+#home-log {
+  margin-left: 22vh;
+  margin-top: -4vh;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+#home-log:hover {
+  color: white;
+}
+
+#friend-1 {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.friends {
+  height: 22vh;
+   width: 22vh;
+  border-radius: 12vh;
+}
+
+a{
+  color: white;
+}
+
+
+.none {
+  background: #d7e3e5;
+  margin-right: 7vh;
+}
+
+
+
+.posting {
+  border: .5vh solid #53e8bb;
+}

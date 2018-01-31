@@ -17,7 +17,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
 
-
     <!--Wow Animation library-->
     <script src="js/wow.min.js"></script>
     <script>
@@ -30,7 +29,7 @@
         <!--Green box profile-->
         <div class="row">
           <div class="col-sm-12 align-self-center">
-            <section class= "wow fadeInDown nt" data-wow-duration="1.2s" data-wow-delay="1s">
+            <section class= "gren wow fadeInDown nt" data-wow-duration="1.2s" data-wow-delay="1s">
               <h2>Vanesa Hernández <i class="fa fa-spoon" aria-hidden="true"></i>
               </h2>
               <!--Profile User Image-->
@@ -41,15 +40,15 @@
         <!--Numbers-->
         <div class="row">
           <section class="numbers">
-            <a class="links-ref" href="#"><div class="col-xs-12 col-sm-2 text-center">
+            <a class="links-ref" href="followers.html"><div class="col-xs-12 col-sm-2 text-center">
               <h3>Seguidores</h3>
               <p>217</p>
               </div></a>
-            <a class="links-ref" href="#"><div class="col-xs-12 col-sm-2 text-center">
+            <a class="links-ref" href="spoons.html"><div class="col-xs-12 col-sm-2 text-center">
               <h3>Spoons</h3>
               <p>350</p>
             </div></a>
-            <a class="links-ref" href="#"><div class="col-xs-12 col-sm-2 align-self-center w3-bar-item w3-button" onclick="view('siguiendo')">
+            <a class="links-ref" href="following.html"><div class="col-xs-12 col-sm-2 align-self-center w3-bar-item w3-button" onclick="view('siguiendo')">
               <h3>Siguiendo</h3>
               <p>319</p>
             </div></a>
@@ -60,21 +59,25 @@
           </div>
         </section>
 
+        <h5>HOLA</h5>
+
         <!--Post-->
         <div class="row">
           <section class="post">
             <div class="col-sm-5 align-self-center">
-            <a href="#writting" data-toggle="modal"><input type="text" name="" value="" placeholder="¡Escribe algo!"></a>
+            <a href="#writting" data-toggle="modal"><input type="text" name="" value="" placeholder="¡Escribe algo!">
+            </a>
             </div>
-          </section>
+            </section>
+
+
+
+
         </div>
         <div class="row">
           <div class="col-sm-4 text-right">
             <button id="share" type="button" name="button">Publicar</button>
         </div>
-
-        </div>
-
 
         <!--Modal Login-->
         <div class="modal fade" id="writting">
@@ -111,9 +114,8 @@
           </section>
         </div>
         <!--About Us-->
-        <div class="row">
           <section class="about-us">
-            <div class="col-sm-5 align-self-center">
+            <div class="row col-sm-5 align-self-center">
               <a class="links-ref" href="#"><i class="fa fa-info" aria-hidden="true"></i> Nosotros</a>
               <a class="links-ref" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
               <a class="links-ref" href="#"><i class="fa fa-user-secret" aria-hidden="true"></i> Privacidad
@@ -124,9 +126,8 @@
           </section>
         </div>
         <!--Language-->
-        <div class="row">
           <section class="text-center">
-            <div class="col-md-offset-4 align-self-center">
+            <div class="row col-md-4 align-self-center">
                   <select class="form-control align-self-center">
                     <option>Español</option>
                     <option>English</option>
