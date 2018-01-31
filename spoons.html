@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Following</title>
+    <!--little logo-->
+    <link rel="shortcut icon" href="assets/images/icon-log.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/home.css">
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+    <!--Bootstrap-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!--  Following  -->
+
+      <!--Container-->
+      <div class="container-fluid text-center">
+
+        <!--Menu-->
+        <nav>
+           <div class="row start">
+             <nav class="col-xs-12 col-md-12 navbar navbar-default" id="menu">
+                 <div class="navbar-header">
+                   <button type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+                     <span class="sr-only">Menu</span>
+                     <!--Hambuger Menu-->
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                   </button>
+                 </div>
+                 <div class="collapse navbar-collapse" id="navbar-1">
+                   <ul class="nav navbar-nav">
+                     <li class="menu" role="presentation"><a class="white-l" href="user.html">Perfil</a></li>
+                     <li class="menu" role="presentation"><a class="white-l" href="following.html">Siguiendo</a></li>
+                     <li class="menu" role="presentation"><a class="white-l" href="followers.html">Seguidores</a></li>
+                     <li class="menu" role="presentation"><a class="white-l" href="#">Configuración</a></li>
+                     <li class="menu" role="presentation"><a class="white-l" href="index.html" data-toggle="modal">Cerrar Sesión</a></li>
+                     <!--Logo Font-->
+                     <li id="home-log" class="menu text-center" role="presentation"><a href="spoons.html"><h2 class="white-log">Spoon</h2> </a></li>
+                     <!--Message Icon-->
+                    <li id="message" class="menu text-center" role="presentation">
+                      <a href="#messenger" class="white-l"  data-toggle="modal">
+                        <i id="fa" class="fa fa-envelope-o fa-2x" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </nav>
+
+          <!--Modal Message-->
+          <div class="modal fade text-center" id="messenger">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!--Close button-->
+                <div class="modal-header text-center" id="sesion">
+                <button type="button" class="close" name="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Mensajes</h3>
+                </div>
+                <!--Friends Messages-->
+                <div class="modal-body" id="sesion-2">
+                    <section id="friend-1">
+                      <div class=" row col-sm-6 none">
+                          <h2>Juan Peréz</h2>
+                          <img class="friends " src="assets/images/profile/friend2.jpg" alt="friend ">
+
+                          <div class="row">
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                          </div>
+                        </div>
+
+                        <div class="row col-sm-5 none text-center">
+                            <h2>Juan Peréz</h2>
+                            <img class="friends " src="assets/images/profile/friend2.jpg" alt="friend ">
+
+                        <div class="row">
+                              <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                            </div>
+                          </div>
+
+                      </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+        <!--Green box profile-->
+        <div class="row">
+          <div class="col-sm-12 align-self-center">
+            <section class= "gren wow fadeInDown nt" data-wow-duration="1.2s" data-wow-delay="1s">
+              <h2>Vanesa Hernández <i class="fa fa-spoon" aria-hidden="true"></i>
+              </h2>
+              <!--Profile User Image-->
+              <img id="profile" src="assets/images/profile/user.jpg" alt="profile picture">
+            </section>
+          </div>
+        </div>
+        <!--Numbers-->
+        <div class="row">
+          <section class="numbers">
+            <a class="links-ref" href="followers.html"><div class="col-xs-12 col-sm-2 text-center">
+              <h3>Seguidores</h3>
+              <p>217</p>
+              </div></a>
+            <a class="links-ref" href="spoons.html"><div class="col-xs-12 col-sm-2 text-center">
+              <h3>Spoons</h3>
+              <p>350</p>
+            </div></a>
+            <a class="links-ref" href="following.html"><div class="col-xs-12 col-sm-2 align-self-center w3-bar-item w3-button" onclick="view('siguiendo')">
+              <h3>Siguiendo</h3>
+              <p>319</p>
+            </div></a>
+            <div class="col-xs-6 col-sm-6 text-right">
+              <a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="spoons">
+          <div id="tittle-h"class="tittle-h row col-xs-12 col-12">
+            <h1>Spoons <i class="fa fa-spoon" aria-hidden="true"></i> <i class="fa fa-heart" aria-hidden="true"></i>
+            </h1>
+          </div>
+
+          <div class="spoons row col-xs-12  col-sm-3">
+            <h2>Coreana</h2>
+            <img class="sect-spoon" src="assets/images/bim.jpg" alt="">
+          </div>
+
+          <div class="spoons row col-xs-12  col-sm-3">
+            <h2>Reposteria</h2>
+            <img class="sect-spoon" src="assets/images/pay.jpg" alt="">
+          </div>
+
+          <div class="spoons row col-xs-12 col-sm-3">
+            <h2>Comida Italina</h2>
+            <img class="sect-spoon" src="assets/images/spag.jpg" alt="">
+          </div>
+          <div class="spoons row col-xs-12  col-sm-3">
+            <h2>Restaurantes</h2>
+            <img class="sect-spoon" src="assets/images/profile/delissa.jpg" alt="">
+          </div>
+        </section>
+
+        <!--Language-->
+          <section class="text-center">
+            <div class="row col-md-4 align-self-center">
+                  <select class="form-control align-self-center">
+                    <option>Español</option>
+                    <option>English</option>
+                    <option>François</option>
+                    <option>Portugués</option>
+                  </select>
+            <section class="about-us">
+              <div class="col-xs-12 col-sm-12 align-self-center">
+                <a class="links-ref" href="#"><i class="fa fa-info" aria-hidden="true"></i> Nosotros</a>
+                <a class="links-ref" href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Salir</a>
+                <a class="links-ref" href="#"><i class="fa fa-user-secret" aria-hidden="true"></i> Privacidad
+                </a>
+                <a class="links-ref" href="#"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                Seguridad</a>
+              </div>
+            </div>
+          </section>
+            </section>
+        </div>
+
+      <!--Jquery-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+      <!--Wow Animation library-->
+      <script src="js/wow.min.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+      <!-- Bootstrap JS-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+      <!--JS-->
+      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+
+
+  </body>
+</html>

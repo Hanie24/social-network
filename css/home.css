@@ -28,6 +28,8 @@
   display: inline-block;
 }
 
+
+
 .friends {
   height: 22vh;
    width: 22vh;
@@ -38,14 +40,27 @@ a{
   color: white;
 }
 
-
 .none {
   background: #d7e3e5;
   margin-right: 7vh;
 }
 
-
+.sect-spoon {
+height: 28vh;
+width: 44vh;
+}
 
 .posting {
   border: .5vh solid #53e8bb;
+}
+
+.spoons{
+  margin-bottom: 10vh;
+  height: 45vh;
+  margin-top: 2vh;
+}
+
+.spoons:hover {
+  background: #e1e8e6;
+  margin: .5vh;
 }
